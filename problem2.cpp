@@ -26,13 +26,16 @@ long long minimumOperations(vector<int>& A, int K) {
 
 int main() {
     int N;
+    cout<< "Enter size of array: ",N;
     cin >> N;
     vector<int> A(N);
-
+    
+    cout<<"Enter array: ";
     for (int i = 0; i < N; i++) {
         cin >> A[i];
     }
     int K;
+    cout<< "Required step: ",K;
     cin >> K;
     cout << minimumOperations(A, K) << endl;
     return 0;

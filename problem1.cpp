@@ -27,6 +27,7 @@ int maxCyclicSubstringSum(string s) {
 
 int main() {
     string s;
+    cout<< "Enter string: "+s;
     cin >> s;
     cout << maxCyclicSubstringSum(s) << endl;
     return 0;
